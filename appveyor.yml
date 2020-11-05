@@ -88,5 +88,6 @@ build_script:
   - clcache -s
 
 artifacts:
-  - path: %APPVEYOR_BUILD_FOLDER%\build
-    name: mbgl-dll
+  - path: build
+    name: mapbox-gl-native
+    type: zip
